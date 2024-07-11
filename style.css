@@ -1,0 +1,567 @@
+
+/*media query*/
+
+@media screen and (max-width: 500px) {
+    
+}
+
+
+
+
+/* Geral */
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container-fluid{
+    background-color: white;
+    height: 60px;
+    margin-top: 0px;
+}
+
+
+/* Bloco 1 */
+.block1 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 600px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    width: 80%;
+}
+
+.Section2{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    padding: 30px;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+td{
+    padding: 50px;
+    width: 50%;
+}
+
+#Bene{
+    font-size: 20px;
+}
+
+#TableTitle{
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding: 20px;
+}
+
+.carousel-control-prev{
+    color: #0057e7;
+    background-color: #0057e7;
+}
+
+
+.Section3{
+    margin-top: 30px;
+    background-color: black;
+    width:70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.carousel-inner {
+    height: 500px;
+    width: 800px;
+    background-color: #F2F3F4;
+}
+.carousel-item img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    object-fit: contain;
+}
+
+/* Paleta de Cores do Google */
+.redtext {
+    color: #d62d20;
+}
+
+.bluetext {
+    color: #0057e7;
+}
+
+.greentext {
+    color: #008744;
+}
+
+.yellowtext {
+    color: #ffa700;
+}
+
+.circle-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 40px;
+ }
+ 
+ 
+ .circle {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+ }
+ 
+ 
+ .center-circle {
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ 
+ 
+ .center-circle:hover {
+    width: 230px;
+    height: 230px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+ }
+ 
+ 
+ .small-circle {
+    width: 100px;
+    height: 100px;
+ }
+ 
+ 
+ .small-circle:hover {
+    width: 130px;
+    height: 130px;
+ }
+ 
+ 
+ .circle img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+ }
+ 
+ 
+ #circle1 {
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ 
+ 
+ #circle2 {
+    top: 30%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+ }
+ 
+ 
+ #circle3 {
+    top: 70%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+ }
+ 
+ 
+ #circle4 {
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ 
+ 
+ #circle5 {
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+ }
+ 
+ 
+ #circle6 {
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+ }
+ 
+ .image-container {
+    position: relative;
+    display: inline-block;
+ }
+
+ .image-container img {
+    display: block;
+ }
+
+ .hover-text {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    color: black;
+    padding: 5px;
+    border-radius: 3px;
+    transition: opacity 0.3s;
+    text-align: center;
+ }
+ .image-container:hover .hover-text {
+    visibility: visible;
+    opacity: 1;
+ }
+ #Recursos{
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 80px;
+ }
+
+ /* Recursos - The Circle*/
+
+@media (max-width: 1200px) {
+    .center-circle {
+        width: 100px;
+        height: 100px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+     }
+     
+     
+     .center-circle:hover {
+        width: 230px;
+        height: 230px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+       
+     }
+
+     #circle1 {
+        top: 10%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+     }
+}
+
+
+  /* Reviews*/
+  
+  .ReviewSec{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .ReviewCont1{
+    display: flex;
+    gap: 20px;
+  }
+
+  .ReviewCont2{
+    display: flex;
+    gap: 20px;
+  }
+  
+  .Review1{
+    padding: 20px;
+    border-radius: 50px;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #008744;
+    color: white;
+    font-size: 16px; 
+    font-family: 'Inter', sans-serif;
+  }
+
+  #Review2{
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #008744;
+    color: white;
+  }
+ 
+  #Review3{
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #008744;
+    color: white;
+  }
+  
+  #Review4{
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #008744;
+    color: white;
+  }
+
+
+ 
+
+/* Footer */
+footer {
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 3.5rem;
+    position: baseline; /* Fixa o rodapé na parte inferior */
+    bottom: 0;
+    left: 0;
+}
+
+#footer_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Dividir em 4 colunas */
+    gap: 2rem;}
+
+    #footer_contacts h1 {
+        margin-bottom: 0.75rem;
+    }
+    
+    #footer_social_media {
+        display: flex;
+        gap: 2rem;
+        margin-top: 1.5rem;
+    }
+    
+    #footer_social_media .footer-link {
+        color: black;
+        display: flex;
+        align-items: center;
+        border-radius: 50%;
+    }
+    
+    #youtube, #facebook, #x, #linkedin, #instagram {
+        background: linear-gradient(gray);
+        text-decoration: none;
+    }
+    
+    .footer-list {
+        list-style: none;
+        padding: 0;
+        margin: 1rem 0;
+        text-align: center;
+        font-family: "Montserrat sans-sheriff";
+    }
+
+    .footer-list a {
+        list-style: none;
+        padding: 0;
+        margin: 1rem 0;
+        text-align: center;
+        color: #0057e7;
+        text-decoration: none;
+    }
+    
+    .footer-list li {
+        margin-bottom: 0.5rem;
+    }
+    
+    #footer_copyright {
+        margin-top: 1rem;
+        font-size: 0.875rem;
+    }
+
+
+.card {
+    align-items: center;
+}
+
+.checklist {
+    list-style: none;
+    padding-left: 0;
+}
+
+.checklist li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.checklist li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: black;
+    ;
+}
+
+#LetrasImpactantes {
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+
+
+@media (max-width: 600px) {
+    .mit {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .circle-container {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    .circle {
+        width: 80px;
+        height: 80px;
+    }
+    .center-circle {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 992px) {
+    .carousel-inner {
+        height: 400px;
+    }
+    .carousel-item img {
+        height: 400px;
+    }
+    .ReviewSec {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .text {
+        font-size: 50px;
+    }
+    .ReviewSec {
+        width: 100%;
+    }
+    #TableTitle {
+        font-size: 24px;
+    }
+    table {
+        padding: 20px;
+    }
+    td {
+        padding: 10px;
+    }
+    .center-circle {
+        width: 120px;
+        height: 120px;
+    }
+    .circle {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container-fluid {
+        height: auto;
+    }
+    .Review1,
+    #Review2,
+    #Review3,
+    #Review4 {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+    }
+    .center-circle {
+        width: 100px;
+        height: 100px;
+    }
+    .circle {
+        width: 50px;
+        height: 50px;
+    }
+    .text {
+        font-size: 30px;
+    }
+}
+
+
+    
+
+
+
+
+
