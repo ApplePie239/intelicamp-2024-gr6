@@ -95,11 +95,10 @@ td{
     padding: 20px;
 }
 
-.carousel-control-prev{
-    color: #0057e7;
-    background-color: #0057e7;
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
 }
-
 
 .Section3{
     margin-top: 30px;
