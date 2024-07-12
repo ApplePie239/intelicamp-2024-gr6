@@ -1,4 +1,16 @@
 
+/*Google Font*/
+@font-face {
+    font-family: "Google Sans";
+    src: url(ProductSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Google Sans Light";
+    src: url(ProductSans-Light.ttf) format('truetype');
+}
+
+
 /*media query*/
 
 @media screen and (max-width: 500px) {
@@ -10,7 +22,7 @@
 
 /* Geral */
 * {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Google Sans Light", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -27,6 +39,34 @@
     background-color: white;
     height: 60px;
     margin-top: 0px;
+}
+
+.text{
+    font-family: "Google Sans Light";
+}
+
+/* Call-to-Action Button */
+.MainButton{
+    background-color: #1A73E8;
+    font-family: "Google Sans";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    padding: 12px 24px 12px 24px;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+    border: transparent;
+}
+
+.MainButton:hover{
+    background-color: #185ABC;
+}
+/* ---Call-to-Action Button----- */
+
+#subtitlesec1, #subtitlesec1k2, #textsec1, #textsec1k2{
+    color: black;
+    font-family: "Google Sans Light";
 }
 
 
@@ -50,7 +90,7 @@
     position: absolute;
     width: 100%;
     height: 600px;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .text {
@@ -64,10 +104,42 @@
     width: 80%;
 }
 
+/* Section 2*/
+
 .Section2{
     width:90%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Sec2{
+    background-color:#1A73E8;
+    height: 700px;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+#TableTitle{
+    color: black;
+}
+
+.card-body{
+    color: black;
+}
+
+#para1{
+    padding-bottom: 10px;
+}
+
+#para2{
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+h4,p{
+    color: black;
 }
 
 table{
@@ -90,11 +162,37 @@ td{
 
 #TableTitle{
     text-align: center;
-    font-family: "Montserrat";
-    font-size: 30px;
+    font-family: "Google Sans Light", sans-serif;
+    font-size: 40px;
     padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: black;
+}
+/* -----Section 2------*/
+
+/* Section 2k5*/
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
+.card{
+    margin: 0 15px;
+    height: 300px;
+}
+
+.card-body{
+    border-radius: 50px;
+}
+
+
+
+
+/* Section 3*/
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
@@ -109,29 +207,54 @@ td{
 }
 
 .carousel-inner {
-    height: 500px;
-    width: 800px;
-    background-color: #F2F3F4;
+    height: 700px;
+    width: 900px;
+    background-color: lightblue;
 }
-.carousel-item img{
-    width: 100%;
+
+/*.carousel-item video{
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     height: 500px;
     object-fit: contain;
+}*/
+
+#video1{
+    width: auto;
+    height: 500px;
+    object-fit: contain;
+    align-content: center;
+}
+
+.videotext{
+    color: black;
+    font-size: 16px;
+    visibility: visible;
+    text-align: center;
+    margin-top: 700px;
+}
+
+
+.videofive{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 /* Paleta de Cores do Google */
 .redtext {
-    color: #d62d20;
+    color: #EA4335;
 }
 
 .bluetext {
-    color: #0057e7;
+    color: #1A73E8;
 }
 
 .greentext {
-    color: #008744;
+    color: #51AE5E;
 }
 
 .yellowtext {
@@ -167,6 +290,7 @@ td{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: white;
  }
  
  
@@ -183,6 +307,7 @@ td{
  .small-circle {
     width: 100px;
     height: 100px;
+    background-color: white;
  }
  
  
@@ -267,9 +392,10 @@ td{
     opacity: 1;
  }
  #Recursos{
-    font-family: "Montserrat";
+    font-family: "Google Sans Light";
     text-align: center;
     margin-top: 80px;
+    color: black;
  }
 
  /* Recursos - The Circle*/
@@ -304,7 +430,7 @@ td{
   /* Reviews*/
   
   .ReviewSec{
-    width: 50%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -312,7 +438,10 @@ td{
 
   .ReviewCont1{
     display: flex;
-    gap: 20px;
+    gap: 40px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 10px 5px 10px;
   }
 
   .ReviewCont2{
@@ -321,16 +450,16 @@ td{
   }
   
   .Review1{
-    padding: 20px;
+    padding: 40px 40px 30px 30px;
     border-radius: 50px;
     width: 400px;
     height: 200px;
     text-align: center;
     margin-bottom: 40px;
-    background-color: #008744;
-    color: white;
-    font-size: 16px; 
-    font-family: 'Inter', sans-serif;
+    background-color: #51AE5E;
+    color: transparent;
+    font-size: 18px; 
+    font-family: "Google Sans Light", sans-serif;
   }
 
   #Review2{
@@ -369,6 +498,12 @@ td{
     color: white;
   }
 
+
+  .RecursosCont{
+    background-color: #1A73E8;
+    height: 800px;
+    padding: 5px 0px 10px 10px;
+  }
 
  
 
@@ -418,7 +553,7 @@ footer {
         padding: 0;
         margin: 1rem 0;
         text-align: center;
-        font-family: "Montserrat sans-sheriff";
+        font-family: "Google Sans Light", sans-serif;
     }
 
     .footer-list a {
@@ -447,6 +582,7 @@ footer {
 .checklist {
     list-style: none;
     padding-left: 0;
+    margin-bottom: 90px;
 }
 
 .checklist li {
@@ -460,16 +596,20 @@ footer {
     position: absolute;
     left: 0;
     color: black;
-    ;
 }
 
 #LetrasImpactantes {
-    font-family: "Montserrat";
+    font-family: "Google Sans Light";
     text-align: center;
     margin-top: 80px;
     margin-bottom: 50px;
 }
 
+#LastButton{
+    text-align: center;
+    padding: 20px 32px;
+    margin-bottom: 150px;
+}
 
 
 @media (max-width: 600px) {
