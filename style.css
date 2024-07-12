@@ -90,7 +90,7 @@
     position: absolute;
     width: 100%;
     height: 600px;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .text {
@@ -110,13 +110,13 @@
     width:90%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
+    margin-top: 30px;
     margin-bottom: auto;
 }
 
 .Sec2{
     background-color:#1A73E8;
-    height: 700px;
+    height: 800px;
     margin-top: 0px;
     padding-top: 10px;
 }
@@ -170,6 +170,35 @@ td{
     color: black;
 }
 /* -----Section 2------*/
+
+.video-container {
+    position: relative;
+    width: 560px; /* Adjust the width as needed */
+    height: 315px; /* Adjust the height as needed */
+    margin: auto;
+  }
+
+  .thumbnail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('Nossos\ Professores.jpg') center center / cover no-repeat; /* Replace 'thumbnail.jpg' with your thumbnail image */
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .thumbnail:hover {
+    opacity: 0.8;
+  }
+
+  .video-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    z-index: 1;
+  }
 
 /* Section 2k5*/
 
@@ -235,6 +264,7 @@ td{
     margin-top: 700px;
 }
 
+
 .videofive{
     margin-left: auto;
     margin-right: auto;
@@ -245,7 +275,6 @@ td{
     justify-content: center;
     align-items: center;
 }
-
 
 /* Paleta de Cores do Google */
 .redtext {
@@ -459,9 +488,9 @@ td{
     height: 200px;
     text-align: center;
     margin-bottom: 40px;
-    background-color: #51AE5E;
+    background-color: #234b29;
     color: transparent;
-    font-size: 18px; 
+    font-size: 16px; 
     font-family: "Google Sans Light", sans-serif;
   }
 
